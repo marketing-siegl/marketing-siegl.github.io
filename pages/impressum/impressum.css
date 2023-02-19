@@ -1,0 +1,120 @@
+/* Body and general styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #ffffff;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header and navigation */
+header {
+	background-color: #191919;
+	color: #fff;
+	padding: 2rem;
+	text-align: center;
+}
+nav ul {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+nav li {
+	margin-right: 2rem;
+  
+}
+
+nav a {
+	font-size: 1.2rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 4rem;
+	margin-top: 2rem;
+}
+h3{
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+
+/* Services section */
+section:nth-of-type(2) {
+background-color: #f5f5f5;
+padding: 20px;
+}
+section:nth-of-type(2) h2 {
+color: #0047AB;
+margin-top: 0;
+}
+
+/* Portfolio section */
+section:nth-of-type(3) {
+padding: 20px;
+}
+section:nth-of-type(3) h2 {
+color: #0047AB;
+margin-top: 0;
+}
+section:nth-of-type(3) img {
+width: 100%;
+}
+
+/* Contact section */
+section:nth-of-type(5) {
+background-color: #f5f5f5;
+padding: 20px;
+}
+section:nth-of-type(5) h2 {
+color: #0047AB;
+margin-top: 0;
+}
+form {
+display: flex;
+flex-direction: column;
+}
+label {
+font-weight: bold;
+margin-top: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+padding: 5px;
+margin: 5px 0;
+border: none;
+border-radius: 3px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+input[type="submit"] {
+background-color: #0047AB;
+color: #ffffff;
+border: none;
+border-radius: 3px;
+padding: 10px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+/* Call-to-action button */
+.cta {
+background-color: #0047AB;
+color: #ffffff;
+padding: 10px 20px;
+border: none;
+border-radius: 3px;
+margin-top: 20px;
+text-decoration: none;
+display: inline-block;
+}
+
+/* Footer */
+footer {
+background-color: #0047AB;
+color: #ffffff;
+text-align: center;
+padding: 10px;
+}
